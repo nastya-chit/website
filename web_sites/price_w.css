@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Page2{
+    background-image: url("images/прайс.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price_page h2{
+    font-size: 50px;
+    color: white;
+}
+
+.oak{
+    display: flex;
+}
+.oak img{
+    width: 200px;
+    height: auto;
+}

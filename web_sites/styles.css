@@ -21,8 +21,7 @@ body {
 /* Стили для шапки */
 header {
   display: flex;
-  background-color: greenyellow;
-  color: black;
+  background-color: #333;
   padding: 20px;
 }
 
@@ -30,40 +29,35 @@ header {
   display: flex;
   align-items: center;
 }
-
 .logo img {
   width: 50px;
   height: auto;
   margin-right: 10px;
 }
-
 .logo h1 {
   font-size: 24px;
-  margin: 0;
+  color: lawngreen;
 }
 
 nav ul {
-
   list-style-type: none;
   margin: 0;
-  padding-top: 23px;
+  padding-top: 15px;
   padding-left: 50px;
 }
-
 nav ul li {
   display: inline-block;
   margin-right: 15px;
 }
-
 nav ul li a {
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 18px;
   padding: 5px 10px;
 }
 
 nav ul li a:hover {
-  background-color: paleturquoise;
+  background-color: lawngreen;
 }
 
 .menu-button {
@@ -116,15 +110,21 @@ nav ul li a:hover {
   color: #fff;
   background-color: #333;
 }
-.contact{
-  display: inline;
-  padding-left: 60px;
-  padding-top: 5px;
-}
-.contact a img{
-  width: 60px;
-  height: auto;
 
+.button_contact{
+  padding-left: 50px;
+}
+.contact{
+  font-size: 20px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.contact span a{
+  color: lawngreen;
+  font-weight: bold;
 }
 
 .Page1{
@@ -138,5 +138,79 @@ nav ul li a:hover {
 }
 .main_page h2{
   font-size: 50px;
-  color: black;
+  color: white;
+}
+.main_page p{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.text {
+  height: 200px;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-style:solid;
+  border-bottom-style:solid;
+  margin: 100px;
+}
+.text p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.reviews_1{
+  height: 200px;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviews_1 h2::after{
+  content:"";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 10px
+}
+
+.photo{
+  background-color: beige;
+}
+.one img{
+  margin-left: 50px;
+  width: 1000px;
+}
+.two img{
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 1000px
+}
+.three img{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 700px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+footer ul li a {
+  color: #fff;
+}
+.contacts{
+  padding: 10px;
 }
