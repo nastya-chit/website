@@ -1,0 +1,51 @@
+.block_1{
+    background: url("images/backg.jpg") 0 0/100% auto no-repeat fixed;
+    padding-top: 150px;
+    padding-left: 100px ;
+    padding-right: 200px ;
+    padding-bottom: 400px ;
+}
+
+.begin{
+    font-size: 55px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+}
+
+.text1 {
+    font-size: 30px;
+    text-align: left;
+    font-style: italic;
+    color: #C0C0C0;
+}
+
+.block_2{
+    font-size: 30px;
+    text-align: center;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.image {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image>span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image>span>*:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.block_3{
+    font-size: 40px;
+    text-align: center;
+}

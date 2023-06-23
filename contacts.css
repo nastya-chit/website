@@ -1,0 +1,89 @@
+*{
+
+}
+.Page3{
+    background-image: url("images/slide4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_page h2{
+    font-size: 50px;
+    color: white;
+}
+
+.us_con{
+    background-color: beige;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.ph{
+    display: flex;
+    justify-content: center;
+}
+.ph img{
+    border-radius: 20%;
+    width: 100px;
+}
+
+.us_contact{
+    height: 50px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.us_contact h2::after{
+    content:"";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 10px
+}
+
+.variants{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.vk{
+    margin-top:15px;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20%;
+    background-color: dodgerblue;
+}
+.tg{
+    margin-top:15px;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20%;
+    background-color: deepskyblue;
+}
+.whatsapp{
+    margin-top:15px;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20%;
+    background-color: forestgreen;
+}
+.num{
+    margin-top:15px;
+    margin-bottom:50px;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20%;
+    background-color: lightgreen;
+}
